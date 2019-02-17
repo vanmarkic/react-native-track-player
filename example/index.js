@@ -5,5 +5,5 @@ import App from './App';
 import PlayerStore, { playbackStates } from './react/stores/Player';
 import TrackStore from './react/stores/Track';
 
-AppRegistry.registerComponent('example', () => App);
+AppRegistry.registerComponent('exampletrackplayer', () => App);
 TrackPlayer.registerPlaybackService(() => require('./service'));
