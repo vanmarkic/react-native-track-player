@@ -1,9 +1,9 @@
 import { observable } from 'mobx';
 
 class Track {
-  @observable title = "Demo";
-  @observable artist = "David Chavez";
-  @observable artwork;
+  @observable title = "Graffiti Moves";
+  @observable artist = "Bufiman";
+  // @observable artwork;
 }  
 
 export default new Track();

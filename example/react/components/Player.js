@@ -55,7 +55,7 @@ export default class Player extends Component {
 
     return (
       <View style={[styles.card, style]}>
-        <Image style={styles.cover} source={{ uri: TrackStore.artwork }} />
+        {/* <Image style={styles.cover} source={{ uri: TrackStore.artwork }} /> */}
         <ProgressBar />
         <Text style={styles.title}>{TrackStore.title}</Text>
         <Text style={styles.artist}>{TrackStore.artist}</Text>
