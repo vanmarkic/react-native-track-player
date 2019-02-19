@@ -10,8 +10,9 @@
     "mobx": "^4.1.1",
     "mobx-react": "^5.0.0",
     "react": "16.5.0",
-    "react-native": "0.57.1",
-    "react-native-track-player": "file:..",
+    "react-native": "^0.58.4",
+    "react-native-nfc-manager": "^1.2.0",
+    "react-native-track-player": "1.1.2",
     "react-navigation": "^1.5.9"
   },
   "devDependencies": {

@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import TrackPlayer from 'react-native-track-player';
-import { StackNavigator } from 'react-navigation';
+import { TabNavigator } from 'react-navigation';
 
 import PlayerStore from './react/stores/Player';
 import TrackStore from './react/stores/Track';
 
-import LandingScreen from './react/screens/LandingScreen';
+// import LandingScreen from './react/screens/LandingScreen';
 import PlaylistScreen from './react/screens/PlaylistScreen';
 
-const RootStack = StackNavigator({
-  Landing: {
-    screen: LandingScreen,
-  },
-  Playlist: {
-    screen: PlaylistScreen,
-  },
-}, { initialRouteName: 'Landing' })
+// const RootStack = TabNavigator({
+//   // Landing: {
+//   //   screen: LandingScreen,
+//   // },
+//   Playlist: {
+//     screen: PlaylistScreen,
+//   },
+// }, { initialRouteName: 'Playlist' })
 
 export default class App extends Component {
 
@@ -41,7 +41,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <RootStack />
+      <PlaylistScreen />
     );
   }
 }

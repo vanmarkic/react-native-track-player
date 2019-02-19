@@ -5,12 +5,12 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import Player from '../components/Player';
 import playlistData from '../data/playlist2.json';
-import localTrack from '../resources/pure.m4a';
+// import localTrack from '../resources/pure.m4a';
 
 import PlayerStore from '../stores/Player';
 
 @observer
-export default class LandingScreen extends Component {
+export default class PlaylistScreen extends Component {
   static navigationOptions = {
     title: 'Playlist Example',
   };
